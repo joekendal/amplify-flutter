@@ -10,7 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.1.8
-  amplify_core: 0.0.1-dev.6
+  amplify_core:
+      git:
+        url: git://github.com/joekendal/amplify-flutter.git
+        path: packages/amplify_core
 
 dev_dependencies:
   flutter_test:
